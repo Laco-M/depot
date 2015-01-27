@@ -1,0 +1,122 @@
+// Place all the styles related to the Products controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+.products {
+  table {
+    border-collapse: collapse;
+  }
+
+  table tr td {
+    padding: 5px;
+    vertical-align: top;
+  }
+
+  .list_image {
+    width:  60px;
+    height: 70px;
+  }
+
+  .list_description {
+    width: 60%;
+
+    dl {
+      margin: 0;
+    }
+
+    dt {
+      color:        #244;
+      font-weight:  bold;
+      font-size:    larger;
+    }
+
+    dd {
+      margin: 0;
+    }
+  }
+
+  .list_actions {
+    font-size:    x-small;
+    text-align:   right;
+    padding-left: 1em;
+  }
+
+  .list_line_even {
+    background:   #e0f8f8;
+  }
+  .list_line_odd {
+    background:   #f8b0f8;
+  }
+}
+
+ /*h1 {
+  text-align: center;
+  margin: 35px;
+ }
+
+ table {
+  margin: 0 auto 0 auto;
+ }
+
+.products {
+  table {
+    border-collapse: collapse;
+  }
+
+#a {
+  border-bottom-left-radius: 7px;
+  border-top-left-radius: 7px;
+  }
+
+tr {
+  margin: 20px 0 0 0;
+}
+
+  table tr td {
+    padding: 5px;
+    vertical-align: center;
+  }
+
+  .list_image {
+    width:  60px;
+    height: 70px;
+  }
+
+  .list_description {
+    width: 60%;
+
+    dl {
+      margin: 0;
+    }
+
+    dt {
+      color:        #244;
+      font-weight:  bold;
+      font-size:    larger;
+      padding: 3px;
+      font-size: 1.3em;
+    }
+
+    dd {
+      margin: 0;
+      padding: 1px;
+      font-size: 1.2em;
+
+    }
+  }
+
+  .list_actions {
+    font-size:    x-big;
+    text-align:   right;
+    padding-left: 1em;
+    border-bottom-right-radius: 7px;
+    border-top-right-radius: 7px;
+  }
+
+  .list_line_even {
+    background:   #1dacf4;
+  }
+  .list_line_odd {
+    background:   #21ef8c;
+  }
+}*/
