@@ -28,7 +28,6 @@ Product.create(title: 'Programming Ruby 1.9',
   image_url: 'ruby.jpg',
   price: 49.95)
 # . . .
-
 Product.create(title: 'Rails Test Prescriptions',
   description: 
     %{<p>
